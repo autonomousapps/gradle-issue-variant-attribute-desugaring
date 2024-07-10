@@ -1,8 +1,12 @@
 # Variant Attribute desugaring/rehydrating issue
 
+## Gradle issue
+
+https://github.com/gradle/gradle/issues/29872
+
 Reproduces `Multiple incompatible variants` error.
 
-## Steps
+## Steps to reproduce
 
 1. Publish the producer to a local repo. We want to resolve this as an external module.
 ```
