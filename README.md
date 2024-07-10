@@ -43,4 +43,3 @@ these two variants were mutually compatible because the compatibility rule wasn'
 because of the issue with desugaring/rehydrating. We implemented a workaround exactly as seen in
 this reproducer. We can also confirm that the PR linked above and targeted for Gradle 8.10 resolves
 this issue.
-# gradle-issue-variant-attribute-desugaring
